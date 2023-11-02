@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body{
+			display: flex;
+		}
+		
+		.boxone{
+			width: 200px;
+			height: 200px;
+			background-color: blue;
+			text-align: center;
+			
+		}
+		.boxtwo{
+			width: 200px;
+			height: 200px;
+			background-color: yellow;
+			text-align: center;
+		}
+		.boxthree{
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			text-align: center;
+		}
+	@media(max-width:1024px){
+		.boxtwo{
+			display: none;
+		}
+	}
+	@media(max-width:768px) {
+		.boxthree{
+			display: none;
+		}
+		.boxtwo{
+			display: block;
+		}
+	}
+	@media(max-width:668px) and (min-width:500px){
+		.boxthree{
+			display: none;
+		}
+		.boxone{
+			background-color: yellow;
+		}
+		.boxtwo{
+			background-color: blue;
+		}
+	}
+	@media(max-width:500px) and (min-width:425px){
+		.boxthree , .boxtwo{
+			display: none;
+		}
+	}
+	@media(max-width:425px) {
+		.boxone , .boxtwo {
+			width: 100px;
+		}
+		.boxthree{
+			display: block;
+			width: 100px;
+		}
+		
+	}
+
+	</style>
+</head>
+<body>
+		<div class="boxone"><h1>one</h1></div>
+		<div class="boxtwo"><h1>two</h1></div>
+	    <div class="boxthree"><h1>three</h1></div>
+</body>
+</html>

@@ -1,0 +1,564 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+
+}
+
+.titleleft {
+    display: flex;
+    margin-right: 22%;
+    text-align: center;
+
+}
+
+.movieplate {
+    height: 25px;
+    width: 25px;
+}
+
+.title {
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 6px;
+    text-transform: lowercase;
+}
+
+.button {
+    background-color: #3283FC;
+    color: white;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 15px;
+
+}
+
+.button:nth-child(2) {
+    color: black;
+}
+
+.left {
+    display: flex;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.background {
+    background-color: #3283FC;
+    height: 350px;
+    width: 100%;
+    flex-direction: column-reverse;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.projecter {
+    position: absolute;
+    left: 30px;
+    top: 217px;
+    opacity: 0.7;
+
+}
+
+.textcenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-family: 'poppins';
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    width: 34%;
+    position: absolute;
+    top: 130px;
+
+
+}
+
+.vector {
+    position: absolute;
+    top: 140px;
+    left: 265px;
+    opacity: 0.9;
+}
+
+.roll {
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    left: 130px;
+}
+
+.rolltwo {
+    position: absolute;
+    top: 0;
+    right: 130px;
+}
+
+.search {
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.searchinput {
+    font-family: 'poppins';
+    border: none;
+    width: 40%;
+    height: 35px;
+    border-radius: 20px;
+    padding: 15px;
+    position: absolute;
+    bottom: -35px;
+    box-shadow: 1px 6px 8px 2px rgba(0, 0, 0, 0.07);
+    border-radius: 100px;
+
+
+}
+
+.searchback {
+    background: linear-gradient(90deg, #1ED6FE 0%, #4FACFE 100%, #4FACFE 100%);
+    box-shadow: 0px 4px 8px rgba(79, 172, 254, 0.28);
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 2px;
+    right: 30.5%;
+}
+
+.main {
+    display: flex;
+    margin: 30px;
+
+}
+
+.sidebarleft {
+    background-color: white;
+    /* width:17%; */
+    min-width: 200px;
+    height: 750px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 6px 14px 6px rgba(0, 0, 0, 0.07);
+
+}
+
+.sidebarright {
+    background-color: white;
+    /* width:80%; */
+    height: 20%;
+    border: none;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.filter {
+    font-family: 'poppins';
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    padding: 25px 20px;
+}
+
+.border {
+    border: 1px solid #CACACA;
+
+}
+
+.language {
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    padding: 20px;
+}
+
+.subject {
+    display: flex;
+    padding-left: 20px;
+}
+
+.sidebox {
+    width: 35px;
+    height: 33px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: none;
+    position: fixed;
+
+}
+
+.sameline {
+    display: flex;
+}
+
+.sidebarbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    width: 20px;
+    height: 30px;
+}
+
+.sub {
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.bordertwo {
+    border: 1px solid #CACACA;
+    margin-top: 20px;
+
+}
+
+.star {
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    padding: 20px;
+}
+
+.drop {
+    height: 50px;
+    width: 84%;
+    border-radius: 15px;
+    margin-left: 20px;
+    font-family: 'poppins';
+    font-size: 15px;
+    opacity: 0.90;
+}
+
+.borderthree {
+    border: 1px solid #CACACA;
+    margin-top: 20px;
+
+}
+
+.borderfour {
+    border: 1px solid #CACACA;
+    margin-top: 20px;
+
+}
+
+
+
+/* .box{
+    width: 600px;
+    height:auto;
+    background-color: red;
+    position:relative;
+}
+.boxone{
+    width: 400px;
+    height: 400px;
+    background-color:blue;
+}
+.boxtwo
+    width: 200px;
+    height: 200px;
+    background-color:yellow;
+    position:absolute;
+    top: 0; 
+} */
+.posterone {
+    background-color: white;
+    width: min-content;
+    height: auto;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0px 7px 13px rgba(0, 0, 0, 0.07);
+    position: relative;
+}
+
+.like {
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    margin-top: -196px;
+    margin-left: 174px;
+    background-color: whitesmoke;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+.heart {
+    width: 20px;
+    padding: 7px;
+}
+
+.num {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: -30px;
+    margin-left: 30px;
+
+}
+
+ul {
+    font-family: 'poppins';
+    font-weight: 500;
+    display: inline-flex;
+    margin-left: -10px;
+}
+
+span {
+    display: block;
+
+}
+
+.picone {
+    /* width:100%; */
+    position: relative;
+
+}
+
+.about {
+    margin-left: 15px;
+    font-family: 'poppins';
+    text-align: left;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+}
+
+.postertwo {
+    background-color: red;
+    width: 22%;
+    height: 350px;
+    border: none;
+    border-radius: 12px;
+
+}
+
+.posterthree {
+    background-color: gray;
+    width: 22%;
+    height: 350px;
+    border: none;
+    border-radius: 12px;
+
+}
+
+.posterfour {
+    background-color: cadetblue;
+    width: 22%;
+    height: 350px;
+    border: none;
+    border-radius: 12px;
+
+}
+
+.footer {
+    width: 100%;
+    height: 250px;
+    background-color: whitesmoke;
+}
+
+.footerlogo {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.footerplate {
+    height: 25px;
+    width: 25px;
+}
+
+.footername {
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 6px;
+    text-transform: lowercase;
+}
+
+.footernav {
+    width: 80%;
+    font-family: 'poppins';
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footerspace {
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:1024px) {
+    .searchinput {
+        width: 50%;
+    }
+
+    .searchback {
+        right: 26%;
+    }
+}
+
+@media(max-width:860px) and (min-width:768px) {
+    .sidebarright {
+        gap: 40px;
+        justify-content: left;
+    }
+}
+
+@media (max-width:768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 26px;
+    }
+
+    .titleleft {
+        display: flex;
+        margin-right: 0%;
+
+    }
+
+    .left {
+        margin-right: -5%;
+        margin-top: 15px;
+    }
+
+    .background {
+        margin-top: 30px;
+    }
+
+    .text {
+        padding: 0;
+    }
+
+    .searchinput {
+        width: 60%;
+    }
+
+    .searchback {
+        right: 21%;
+    }
+
+    .sidebarleft {
+        display: none;
+
+    }
+
+    .sidebarright {
+        margin-left: 0;
+
+    }
+
+    .sidebox {
+        display: block;
+        position: fixed;
+        z-index: 1;
+        left: 10px;
+    }
+
+    .footernav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .roll {
+        left: 0;
+    }
+
+    .vector {
+        left: 130px;
+    }
+
+    .projecter {
+        left: 140px;
+    }
+
+    .rolltwo {
+        right: 30px;
+
+
+    }
+
+}
+
+@media (max-width:600px) {
+    .text {
+        width: auto;
+    }
+
+    .roll {
+        left: -130px;
+    }
+
+    .vector {
+        left: 75px;
+        opacity: 0.6;
+    }
+
+    .projecter {
+        left: 60px;
+    }
+
+    .rolltwo {
+        right: -94px;
+    }
+}
+
+@media(max-width:430px) {
+    .footerlogo {
+        padding: 0;
+        margin-left: 0;
+        padding-top: 40px;
+    }
+
+}
+
+@media (max-width:850px) and (min-width:768px) {
+    .sidebarright {
+        margin-left: 20px;
+        gap: 10px;
+        justify-content: left;
+    }
+}
